@@ -35,34 +35,34 @@ It's a Bus reservation System website that allows users to reserve their seat fo
 
 <br>
 👉 Working Demonstration Video : 
-https://github.com/smitkakadiya57/safar-india/blob/main/SAFAR-IMAGE/safar-india.mp4
+https://github.com/smitkakadiya57/Safar_India_Bus_Reservation_System/blob/main/SAFAR-IMAGE/safar-india.mp4
 <br>
 
 <h3>Steps:</h3>
         <ol>
         <li> Enter From and To City (suggestion provided), Journey Date and Press Search Button.</li>
-      <img src="https://github.com/smitkakadiya57/safar-india/blob/main/SAFAR-IMAGE/hero.png">
+      <img src="https://github.com/smitkakadiya57/Safar_India_Bus_Reservation_System/blob/main/SAFAR-IMAGE/hero.png">
         <li>Select the Bus Which you want to travel. You can use Quick links to switch between Dates.</li>
-          <img src="https://github.com/smitkakadiya57/safar-india/blob/main/SAFAR-IMAGE/bus.png">
+          <img src="https://github.com/smitkakadiya57/Safar_India_Bus_Reservation_System/blob/main/SAFAR-IMAGE/bus.png">
   <br>
         <li>Available trip Provides Timings, Bus name, left Seats, Facility and Charges. </li>
   <br>
-         <img src="https://github.com/smitkakadiya57/safar-india/blob/main/SAFAR-IMAGE/time.png">
+         <img src="https://github.com/smitkakadiya57/Safar_India_Bus_Reservation_System/blob/main/SAFAR-IMAGE/time.png">
         <li>Choose any Bus and Press Select Seat  Button</li>
   <li>Choose Boarding Point, Drop Point and Seat no. and press Next button.</li>
   <br>
-   <img src="https://github.com/smitkakadiya57/safar-india/blob/main/SAFAR-IMAGE/layout.png">
-     <img src="https://github.com/smitkakadiya57/safar-india/blob/main/SAFAR-IMAGE/layout2.png">
+   <img src="https://github.com/smitkakadiya57/Safar_India_Bus_Reservation_System/blob/main/SAFAR-IMAGE/layout.png">
+     <img src="https://github.com/smitkakadiya57/Safar_India_Bus_Reservation_System/blob/main/SAFAR-IMAGE/layout2.png">
   <li>Enter Passenger and Contact Details. you can use Coupon Code like <b>SAFAR50</b> , <b>SAFAR100</b>, <b>INDIA200</b> to get discount. press "Pay and Book Now" button.</li>
-   <img src="https://github.com/smitkakadiya57/safar-india/blob/main/SAFAR-IMAGE/pasdata.png">
+   <img src="https://github.com/smitkakadiya57/Safar_India_Bus_Reservation_System/blob/main/SAFAR-IMAGE/pasdata.png">
   <li>Enter the Card Details and Pay the Amount.</li>
-   <img src="https://github.com/smitkakadiya57/safar-india/blob/main/SAFAR-IMAGE/payment.png">
+   <img src="https://github.com/smitkakadiya57/Safar_India_Bus_Reservation_System/blob/main/SAFAR-IMAGE/payment.png">
   <li>After "Ticket is Confirmed" message click on View Ticket Button to take printout of ticket.</li>
-   <img src="https://github.com/smitkakadiya57/safar-india/blob/main/SAFAR-IMAGE/confirm.png">
+   <img src="https://github.com/smitkakadiya57/Safar_India_Bus_Reservation_System/blob/main/SAFAR-IMAGE/confirm.png">
   <li>Enter Email and Mobile no and click on search.</li>
   
   <li>In below list display your booked ticket list click on VIEW TICKET button.</li>
-   <img src="https://github.com/smitkakadiya57/safar-india/blob/main/SAFAR-IMAGE/search.png">
+   <img src="https://github.com/smitkakadiya57/Safar_India_Bus_Reservation_System/blob/main/SAFAR-IMAGE/search.png">
   <li>Click on Print button to take printout or Use Back to Homepage button.</li>
-   <img src="https://github.com/smitkakadiya57/safar-india/blob/main/SAFAR-IMAGE/tic.png">
+   <img src="https://github.com/smitkakadiya57/Safar_India_Bus_Reservation_System/blob/main/SAFAR-IMAGE/tic.png">
         </ol>
