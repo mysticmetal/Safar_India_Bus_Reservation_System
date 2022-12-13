@@ -43,7 +43,8 @@ https://github.com/smitkakadiya57/Safar_India_Bus_Reservation_System/blob/main/S
         <li> Enter From and To City (suggestion provided), Journey Date and Press Search Button.</li>
       <img src="https://github.com/smitkakadiya57/Safar_India_Bus_Reservation_System/blob/main/SAFAR-IMAGE/hero.png">
         <li>Select the Bus Which you want to travel. You can use Quick links to switch between Dates.</li>
-          <img src="https://github.com/smitkakadiya57/Safar_India_Bus_Reservation_System/blob/8dc749b9338c37729652d2ccf816bfec11c2625b/SAFAR-IMAGE/bus.png">
+          <img src="https://github.com/smitkakadiya57/Safar_India_Bus_Reservation_System/blob/8dc749b9338c37729652d2ccf816bfec11c2625b/SAFAR-IMAGE/bus.png?raw=true">
+          
   <br>
         <li>Available trip Provides Timings, Bus name, left Seats, Facility and Charges. </li>
   <br>
