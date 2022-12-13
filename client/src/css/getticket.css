@@ -1,0 +1,95 @@
+/* ==================== Ticket Search Form =========================== */
+
+.get-search {
+  padding: 1em;
+  box-shadow: 0 0 0.2em gray;
+  border-radius: 0.5em;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2em;
+  align-items: center;
+  justify-content: center;
+}
+.get-search input {
+  outline: none;
+  font-size: 1em;
+  font-family: "Nunito", sans-serif;
+  border: none;
+  background: transparent;
+  border: 0.1em solid gray;
+  line-height: 2;
+  padding: 0 1em;
+  border-radius: 0.5em;
+  width: 100%;
+}
+
+.get-search button {
+  outline: none;
+  font-size: 1em;
+  font-family: "Nunito", sans-serif;
+  border: none;
+  background: rgb(161, 31, 148);
+  line-height: 2;
+  padding: 0 1em;
+  color: #f7f7f7;
+  border-radius: 0.5em;
+}
+/* ================================================================ */
+
+/* ====================== TICKET TABLE ============================= */
+
+.ticket_container {
+  overflow: hidden;
+  font-size: 1rem;
+  min-width: 10em;
+  max-width: 100%;
+}
+
+table {
+  border-collapse: collapse;
+  padding: 1em;
+  width: 100%;
+}
+table th,
+table td {
+  border: 1px solid rgb(180, 180, 180);
+}
+table th {
+  line-height: 2;
+  background-color: #f7f7f7;
+}
+table td {
+  line-height: 1.5;
+  padding: 0.5em 1em;
+}
+.ticket-header th img {
+  height: 3em;
+}
+
+ol {
+  list-style-type: decimal;
+  padding: 1em 1em;
+}
+
+.print-btn {
+  text-align: center;
+}
+.print-btn button {
+  background-color: rgb(135, 57, 171);
+  color: #f7f7f7;
+  outline: none;
+  border: none;
+  font-size: 1em;
+  padding: 0.5em 1em;
+  border-radius: 0.5em;
+  transition: all 0.2s ease;
+}
+.print-btn button:hover {
+  background-color: blueviolet;
+}
+
+.print_msg {
+  opacity: 0;
+  text-align: end;
+}
+/* ================================================================= */

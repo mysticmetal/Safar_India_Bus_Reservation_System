@@ -1,0 +1,330 @@
+.ticket-page {
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0.5em 0;
+  background-color: #f6f6f6;
+  flex-grow: 1;
+  /* margin-bottom: 3em; */
+  font-size: 1em;
+}
+
+.ticket-data {
+  margin-top: 0.5em;
+}
+
+/* ==================== Bus Search Form ============================ */
+
+.bus-search-form {
+  display: flex;
+  justify-content: space-between;
+  gap: 2em;
+  align-items: center;
+  margin-bottom: 2em;
+  flex-wrap: wrap;
+}
+.bus-search-form section {
+  display: flex;
+  flex-direction: column;
+  border: 0.1em solid #c3c1c1;
+  padding: 0.5em;
+  border-radius: 0.5em;
+  flex-grow: 1;
+  justify-content: center;
+}
+.bus-search-form section input {
+  outline: none;
+  font-size: 1em;
+  border: none;
+  font-weight: 600;
+  background: transparent;
+}
+
+.bus-search-form section:nth-child(5) {
+  background-color: rgb(240, 73, 101);
+  transition: all 0.5s linear;
+}
+
+.bus-search-form section:nth-child(5):hover {
+  background-color: rgb(235, 17, 53);
+}
+
+.bus-search-form section button {
+  font-size: 1.2em;
+  border: none;
+  background: transparent;
+  color: white;
+}
+
+.bus-search-form .arr-ico {
+  transform: translateX(0%);
+}
+/* ================================================================ */
+
+/* ==================== Quick Date Select  ============================ */
+
+.date-select {
+  display: flex;
+  gap: 2em;
+  margin-bottom: 1em;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.date-select section {
+  border: 0.1em solid #c3c1c1;
+  background-color: #f8f8f8;
+  padding: 0.5em;
+  border-radius: 1em;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-width: 4em;
+}
+
+section.active-date {
+  border: 0.1em solid rgb(236, 68, 96);
+  background-color: #db0c4a;
+  color: #fff;
+}
+
+section.date-disable {
+  background-color: #d2d2d2;
+  border: 0.1em solid #d2d2d2;
+}
+/* ================================================================ */
+
+/* ==================== Trip Not Found   ============================ */
+
+.trip-nothing {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 1em;
+}
+
+.trip-nothing p {
+  font-size: 1.1em;
+  color: #808080;
+}
+/* ================================================================ */
+
+/* ==================== Trip Cards  ============================ */
+
+.ticket-wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 2em;
+}
+
+.ticket-container {
+  background-color: #ffffff;
+  border: 0.1em solid rgb(205, 205, 205);
+  padding: 1em;
+  font-size: 1em;
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  border-radius: 1em;
+  grid-row-gap: 1em;
+  align-items: center;
+  justify-items: center;
+}
+
+.coupon {
+  padding: 0.3rem 1rem;
+  background-color: rgb(129, 79, 220);
+  color: rgb(238, 238, 238);
+  border-radius: 0.3rem;
+  grid-column: 9/11;
+  width: 50%;
+  text-align: center;
+  height: fit-content;
+  /* font-weight: bold; */
+}
+.start_time {
+  color: #333232;
+  font-weight: 600;
+  font-size: 2em;
+  grid-column: 1/4;
+}
+.duration {
+  grid-column: 4/6;
+  border-bottom: 0.1em solid #808080;
+  width: 100%;
+  text-align: center;
+  position: relative;
+}
+
+.duration span:after,
+.duration span:before {
+  content: "";
+  position: absolute;
+  width: 0.5em;
+  height: 0.5em;
+  background-color: #808080;
+  bottom: 0;
+  border-radius: 50%;
+  transform: translateY(50%);
+}
+
+.duration span:after {
+  right: 0;
+}
+.duration span:before {
+  left: 0;
+}
+
+.end_time {
+  color: #333232;
+  font-weight: 600;
+  font-size: 2em;
+  grid-column: 6/9;
+}
+.real_cost {
+  font-weight: 800;
+  font-size: 2em;
+  color: rgb(93, 26, 218);
+  grid-column: 11/12;
+}
+.prime_cost {
+  text-decoration: line-through;
+  font-size: 1.5em;
+  grid-column: 12/13;
+  display: flex;
+  align-items: flex-end;
+}
+.bus_name {
+  grid-column: 1/7;
+}
+.seat_left {
+  grid-column: 7/13;
+}
+.ticket-container hr {
+  grid-column: 1/13;
+}
+.facility {
+  grid-column: 1/6;
+  display: flex;
+  gap: 0.5em;
+  max-width: 100%;
+  flex-wrap: nowrap;
+  overflow-x: hidden;
+  justify-content: flex-start;
+}
+.facility i {
+  padding: 0.5em;
+  border-radius: 50%;
+  background-color: rgb(231, 231, 231);
+  color: #333232;
+}
+
+.timeline {
+  grid-column: 6/10;
+  color: blueviolet;
+  text-decoration: underline;
+}
+.selec_seat {
+  grid-column: 10/13;
+  font-size: 1em;
+  padding: 0.5em 1em;
+  outline: none;
+  background-color: blueviolet;
+  color: #fff;
+  border: none;
+  border-radius: 0.5em;
+  transition: all 0.5s linear;
+}
+.selec_seat:hover {
+  background-color: rgb(59, 4, 110);
+}
+
+/* ================================================================ */
+
+/* ==================== Timeline Modal Css ============================ */
+
+.timeline-section {
+  display: flex;
+  flex-direction: column;
+  gap: 1em;
+  align-items: center;
+  justify-content: center;
+  /* border: 2px solid red; */
+}
+
+.timeline-section section {
+  width: 100%;
+  display: flex;
+  gap: 1em;
+  justify-content: space-between;
+  align-items: center;
+  /* border: 2px solid red; */
+}
+
+.timeline-place {
+  text-align: center;
+}
+
+.timeline-section hr {
+  width: 100%;
+  border: 0.01px solid #808080;
+}
+.timeline-ico {
+  font-size: 2em;
+  color: #333232;
+}
+/* ================================================================ */
+
+/* ==================== RESPONSIVE CSS ============================ */
+
+@media screen and (max-width: 725px) {
+  .start_time {
+    grid-column: 1/5;
+  }
+  .duration {
+    grid-column: 5/9;
+  }
+  .end_time {
+    grid-column: 9/13;
+  }
+  .coupon {
+    width: fit-content;
+    grid-column: 1/7;
+  }
+  .real_cost {
+    grid-column: 7/11;
+  }
+  .prime_cost {
+    grid-column: 11/13;
+  }
+  .facility {
+    grid-column: 1/5;
+  }
+
+  .timeline {
+    grid-column: 5/9;
+  }
+  .selec_seat {
+    grid-column: 9/13;
+  }
+}
+
+@media screen and (max-width: 510px) {
+  .modal-container {
+    width: 90%;
+  }
+
+  .date-select {
+    gap: 1em;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  .bus-search-form {
+    gap: 0.5em;
+  }
+  .bus-search-form section {
+    max-width: 40%;
+    overflow: hidden;
+  }
+}
+/* ================================================================ */

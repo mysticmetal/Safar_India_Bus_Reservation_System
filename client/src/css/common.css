@@ -1,0 +1,309 @@
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css");
+
+@import url("https://fonts.googleapis.com/css2?family=Nunito&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Nunito", sans-serif;
+}
+
+html {
+  overflow-x: hidden;
+  font-size: 16px;
+}
+
+.container {
+  max-width: 1125px;
+  margin: auto;
+}
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  row-gap: 5em;
+  flex-grow: 1;
+  padding-bottom: 3em;
+}
+
+/* =======> Navigation Bar CSS ========= */
+
+.header {
+  background-color: #f9f9f9;
+  box-shadow: 0 0 0.5em 0.1em #c8c8c8;
+  margin-bottom: 2em;
+  width: 100%;
+}
+
+.header .container {
+  font-size: 1rem;
+  padding: 0.3em 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+}
+
+.header .container .logo {
+  height: 3rem;
+}
+
+.navbar {
+  width: 100%;
+  min-height: 20em;
+  background-color: #f0f0f0fc;
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 5;
+  box-shadow: 0 1.1em 11.1em grey;
+  border-radius: 1em;
+  padding: 2em 0;
+  /* to get transition */
+
+  transform: translateY(-100%);
+  transition: all 0.5s linear;
+
+  opacity: 0;
+  visibility: hidden;
+  pointer-events: none;
+}
+
+.navbar-list {
+  display: flex;
+  gap: 2em;
+  list-style: none;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  flex-wrap: wrap;
+}
+.navbar-list li {
+  width: 15em;
+  padding: 1em;
+  box-shadow: 0 0 0.1em 0.1em rgb(213, 203, 203);
+  border-radius: 1em;
+}
+
+.navbar-list li .navbar-link {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1em;
+}
+
+.navbar-link i {
+  font-size: 2em;
+  color: #ad33da;
+}
+
+.navbar-link:link,
+.navbar-link:visited {
+  text-decoration: none;
+  color: #212529;
+  transition: all 0.3s;
+}
+
+.navbar-link:hover,
+.navbar-link:active {
+  color: #6279e8;
+}
+.mobile-navbar-btn {
+  display: block;
+  right: 0;
+  background: transparent;
+  cursor: pointer;
+  z-index: 2100;
+}
+
+.mobile-nav-icon {
+  font-size: 2em;
+  margin-right: 0.5em;
+  color: #9d2bdf;
+}
+.mobile-nav-icon[name="fa-xmark"] {
+  display: none;
+}
+
+.active .container .navbar {
+  transform: translateX(0);
+  opacity: 1;
+  visibility: visible;
+  pointer-events: auto;
+}
+
+.active .container .mobile-navbar-btn .mobile-nav-icon[name="fa-xmark"] {
+  display: block;
+}
+.active .container .mobile-navbar-btn .mobile-nav-icon[name="fa-bars"] {
+  display: none;
+}
+
+/* ================================================== */
+
+/* ================== Footer ===================== */
+
+footer {
+  background-color: rgb(28, 26, 26);
+  color: rgb(189, 189, 189);
+  padding: 2em 0;
+  margin-top: auto;
+}
+
+.footer-wrapper {
+  display: flex;
+  flex-direction: column;
+  row-gap: 1em;
+}
+
+.footer-wrapper .quick-link {
+  display: flex;
+  column-gap: 1em;
+  flex-wrap: wrap;
+}
+
+.credit {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap-reverse;
+  column-gap: 1em;
+}
+
+.credit h5 {
+  flex-grow: 0;
+}
+/* ================================================== */
+
+/* ===================================================================== */
+/* =========>>>>>>>======= RESPONSIVE CSS=========<<<<<<<<<<============ */
+
+@media screen and (max-width: 1125px) {
+  body {
+    font-size: 13px;
+  }
+  .container {
+    max-width: 95%;
+  }
+}
+
+@media screen and (max-width: 725px) {
+  .border-right {
+    border-right: none;
+  }
+  .fa-arrow-right-arrow-left {
+    right: 0em;
+  }
+  .credit {
+    justify-content: center;
+  }
+}
+
+.error-sec,
+.success-sec {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1em;
+}
+
+main.error-sec img {
+  width: 70vw;
+  max-width: 20em;
+}
+
+.success-sec img {
+  width: 30%;
+}
+
+.success-sec h2,
+.success-sec p {
+  text-align: center;
+}
+
+.home-btn {
+  font-size: 1em;
+  text-decoration: none;
+  user-select: none;
+  color: #f5f5f5;
+  background-color: #6279e8;
+  padding: 1em 2em;
+  border-radius: 0.5em;
+}
+
+.error-sec a:hover {
+  background-color: #3151ee;
+}
+
+@media screen and (max-width: 510px) {
+  body {
+    font-size: 12.5px;
+  }
+  .container {
+    max-width: 90%;
+  }
+  .hero-form div {
+    width: 95%;
+  }
+  .hero-form div {
+    flex-direction: column;
+  }
+  .hero-form div section {
+    border: none;
+    width: 100%;
+  }
+  div.hero-form div section label {
+    display: none;
+  }
+  div.hero-form div section input {
+    font-size: 1.2em;
+    width: 100%;
+    border: none;
+    border: 0.09em solid grey;
+    border-radius: 0.2em;
+    padding: 0.2em;
+  }
+  .hero-form div section button {
+    border: none;
+  }
+  .fa-arrow-right-arrow-left {
+    transform: rotate(90deg);
+  }
+
+  .travel-box section {
+    width: 45%;
+  }
+  .footer-wrapper .quick-link {
+    justify-content: center;
+  }
+}
+
+@media print {
+  header {
+    display: none;
+  }
+  footer {
+    display: none;
+  }
+  p.print_msg {
+    opacity: 1;
+  }
+  div.print-btn {
+    opacity: 0;
+  }
+  .home-btn{
+    opacity: 0;
+  }
+}
+/* =====>>>>>>>>>>>========>>>>>>>>>>>>===========------========>>>>>>>>>===== */

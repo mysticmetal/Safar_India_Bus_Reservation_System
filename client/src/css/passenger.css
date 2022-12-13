@@ -1,0 +1,158 @@
+/* =================  Passenger Form =========================== */
+
+form.passenger-detail-section {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5em;
+  width: 100%;
+}
+
+.passenger-detail-section section {
+  border: 0.1em solid gray;
+  border-radius: 0.5em;
+  padding: 1em;
+}
+
+/* ---------------- trip summary ---------------- */
+.trip-summary {
+  display: flex;
+  align-items: center;
+  gap: 1em;
+}
+.trip-summary .trip-summ-ico {
+  font-size: 2em;
+  color: #8a2be2;
+}
+/* ------------------------------------------------- */
+
+/* ------------------ passenger detail---------------------- */
+.passenger-detail {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 1em;
+  max-width: 60em;
+}
+
+.psg-sec {
+  display: flex;
+  flex-direction: column;
+  gap: 0.2em;
+}
+
+.psg-sec-det {
+  display: flex;
+  flex-wrap: nowrap;
+  gap: 1em;
+}
+
+.psg-sec-det input,
+.psg-sec-det select,
+.coupon-box {
+  font-size: 1em;
+  outline: none;
+  padding: 0.1em 0.5em;
+  border: 0.1em solid gray;
+  border-radius: 0.5em;
+  background: transparent;
+}
+
+.psg-sec-det input {
+  flex-grow: 1;
+}
+/* ----------------------------------------------- */
+
+/* ------------------ COntact Detail-------------------------- */
+section.contact-detail {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1em;
+}
+section.contact-detail div {
+  flex-grow: 1;
+}
+/* ---------------------------------------------------------- */
+
+/* --------------------------- Coupon Box -------------------------- */
+.coupon-detail {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  gap: 1em;
+  max-width: 30em;
+}
+
+.coupon-detail i {
+  font-size: 1.5em;
+  color: rgb(0, 128, 0);
+}
+
+i.text-fade {
+  color: #c7c4c4;
+}
+
+.coupon-btn {
+  outline: none;
+  font-size: 1em;
+  background: transparent;
+  border: none;
+  color: green;
+}
+
+/* ---------------------------------------------------------- */
+
+/* ------------------- Fare Table ----------------------------- */
+
+.fare-detail {
+  display: flex;
+  flex-direction: column;
+  max-width: 30em;
+  gap: 0.5em;
+}
+.fare-detail > div {
+  display: flex;
+  justify-content: space-between;
+}
+.t-g {
+  color: green;
+}
+.t-b {
+  color: #7676d6;
+}
+.t-bg-v {
+  color: #7676d6;
+  font-weight: 600;
+}
+/* ---------------------------------------------------------- */
+
+/* ---------------- Pay and Book Section -------------------------- */
+
+section.final-pay-sec {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: none;
+}
+
+section.final-pay-sec input {
+  display: none;
+}
+.final-pay-sec button {
+  color: #ffffff;
+  background-color: #7676d6;
+  font-size: 1.3em;
+  outline: none;
+  border: none;
+  padding: 0.3em 1em;
+  border-radius: 0.3em;
+  transition: all 0.5s linear;
+}
+.final-pay-sec button:hover {
+  background-color: #4242d1;
+}
+
+/* ---------------------------------------------------------- */
+
+/* ============================================================ */

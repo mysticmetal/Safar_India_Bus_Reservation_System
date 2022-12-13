@@ -1,0 +1,203 @@
+/* =========== Hero Sec Form ================ */
+
+.hero-poster img {
+  width: 100%;
+  border-radius: 2em;
+  position: relative;
+  z-index: -1;
+}
+
+.hero-form {
+
+  display: flex;
+  position: relative;
+  bottom: 4em;
+  z-index: 0;
+}
+.hero-form div {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  width: 80%;
+  margin: auto;
+  box-shadow: 0 0.2em 4.2rem -1.5rem blueviolet;
+  background-color: white;
+  border-radius: 1em;
+  padding: 2em;
+  flex-wrap: wrap;
+  row-gap: 1em;
+}
+.hero-form div section {
+  display: flex;
+  row-gap: 1em;
+  flex-direction: column;
+  align-items: center;
+  flex-grow: 1;
+}
+
+.hero-form form section label {
+  font-size: 1.3em;
+}
+.hero-form div section label i {
+  margin-right: 0.5em;
+  background-color: #f4f4f4;
+  color: #647df8;
+  border: 0.1em solid #b9b9b9;
+  padding: 0.5em;
+  border-radius: 50%;
+}
+.hero-form div section input {
+  outline: none;
+  font-size: 1em;
+  font-family: "Nunito", sans-serif;
+  border: none;
+  border-bottom: 0.15em solid grey;
+  background: transparent;
+}
+
+.border-right {
+  border-right: 0.15em solid #b9b9b9;
+}
+
+.fa-arrow-right-arrow-left {
+  position: relative;
+  right: 0;
+  background-color: rgb(255, 255, 255);
+  color: #3151ee;
+  border: 0.1em solid #b9b9b9;
+  padding: 0.5em;
+  border-radius: 50%;
+  transform: translateX(-50%);
+}
+
+.hero-form div section button.btn-pink {
+  font-size: 1.5em;
+  background-color: #f03a76;
+  border: none;
+  padding: 0.5em 1em;
+  color: aliceblue;
+  border-radius: 0.5em;
+  cursor: pointer;
+  transition: 0.2s all ease-in;
+}
+
+.hero-form div section button.btn-pink:hover {
+  background-color: #ba0843;
+}
+
+/* ======================================================== */
+
+/* ============== Offer Slider ==================== */
+
+.offer-section h3 {
+    margin-top: 1em;
+    text-align: center;
+    color: rgb(86, 4, 162);
+  }
+  
+/* ======================================================== */
+
+/* =================== Travel Anywhere =================== */
+.travel-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 2em;
+  }
+  
+  
+  .travel-box {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    row-gap: 1em;
+    column-gap: 1em;
+  }
+  .travel-box section {
+    display: flex;
+    align-items: center;
+    column-gap: 0.5em;
+    padding: 0.1em;
+    box-shadow: 0 0.2em 0.3em  rgb(184, 186, 208);
+    min-width: 20%;
+    flex-grow: 0;
+   
+    border-radius: 0.5em;
+    user-select: none;
+  }
+  
+  .travel-box section:hover {
+    box-shadow: 0 0.2em 0.5em 0.1em rgb(189, 190, 210);
+    background: #f5f5f5;
+  }
+  
+  .travel-box section img {
+    width: 3em;
+    height: 3em;
+    border-radius: 0.5em;
+  }
+  .travel-box section p {
+    font-size: 1.2em;
+    padding-right: 0.5em;
+  }
+/* ======================================================== */
+
+
+/* ============== Facility Section ==================== */
+
+.facility-section {
+    display: flex;
+    row-gap: 1em;
+    flex-direction: column;
+    align-items: center;
+   
+  }
+  
+  .facility-section h1{
+  text-align: center;
+  }
+  
+  
+  .facility-section .facility {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    flex-wrap: wrap;
+    gap: 2em;
+  }
+  
+  .facility section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 0.5em;
+   
+  }
+  .facility section img {
+    width: 10em;
+  }
+  .facility section h3 {
+    color: rgb(86, 4, 162);
+  }
+  
+/* ======================================================== */
+
+/* ============ Social Media sec ================ */
+.social-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 1em;
+    margin-bottom: 3em;
+  }
+  
+  .social-section .social {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 3em;
+    row-gap: 1em;
+    column-gap: 0.5em;
+    color: rgb(53, 5, 98);
+  }
+/* ======================================================== */
